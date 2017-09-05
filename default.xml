@@ -3,7 +3,7 @@
 
   <remote  name="github"
            fetch=".."
-           review="review.cyanogenmod.org" />
+           review="review.lineageos.org" />
 
   <remote  name="aicp"
            fetch="https://github.com/"
@@ -26,7 +26,11 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.0_r4" />
+           revision="refs/tags/android-7.1.2_r29" />
+
+  <remote name="substratum"
+           fetch="https://github.com/"
+           review="http://substratum.review" />
 
   <default revision="refs/heads/cm-14.1"
            remote="github"
